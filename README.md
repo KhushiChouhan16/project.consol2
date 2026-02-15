@@ -1,25 +1,30 @@
-# 📄 Intelligent PDF Chatbot (RAG)
+# AI-Powered Code Reviewer
 
-A Retrieval-Augmented Generation (RAG) based chatbot that allows users to upload PDFs and ask questions strictly based on the document content.
+An AI-based tool that reviews Python code using Gemini API.
 
 ## 🚀 Features
-- Upload PDF files
-- Ask questions from the PDF
-- Context-aware answers using RAG
-- Chat history per PDF
-- Local LLM using Ollama (Gemma / LLaMA)
-- Vector search using ChromaDB
-- Clean and modern Streamlit UI
+
+- Detects bugs and logical errors
+- Suggests optimizations
+- Improves readability
+- Generates improved version of code
+- Gives Code Quality Score
+- Download review report
+- Download improved code
 
 ## 🛠 Tech Stack
+
 - Python
 - Streamlit
-- LangChain
-- ChromaDB
-- HuggingFace Embeddings
-- Ollama (Local LLM)
+- Gemini API
+- dotenv
 
 ## ▶️ How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
 
 ```bash
 pip install -r requirements.txt
